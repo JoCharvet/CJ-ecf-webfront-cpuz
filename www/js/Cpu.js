@@ -1,7 +1,7 @@
 /**
  * @class Cpu
  * represents a cpu
- * 
+ * @author Charvet Johnny
  */
 class Cpu {
     /**

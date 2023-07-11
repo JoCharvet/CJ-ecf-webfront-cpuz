@@ -1,7 +1,7 @@
 /**
  * @class Db
- *  This class is used to get the data from the cpu.json file
- * 
+ * This class is used to get the data from the cpu.json file
+ * @author Charvet Johnny
  */
 class Db{
     /**
