@@ -25,9 +25,9 @@ class GenerateTbody{
      * @param {array[CPU]} _table 
      */
     generateTbody(_table = this.cpuCollection.cpus) {
-        if(document.getElementById("search"))
+        if(document.getElementById("search").value != "")
         {
-            _table = this.cpuCollection.searchCpu(document.getElementById("search").value);
+            _table =  this.cpuCollection.searchCpu(document.getElementById("search").value);
         }
         this.tbody.innerHTML = "";
         _table.forEach(cpu => {
