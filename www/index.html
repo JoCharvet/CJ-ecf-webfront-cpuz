@@ -10,29 +10,36 @@
 </head>
 <body>
     <header>
-        <h1>Liste des CPUs</h1>
-        <img src="img/cpuz.webp">
+        <section>
+            <h1>Liste des CPUs</h1>
+            <img src="img/cpuz.webp" alt="processeur intel serie 9 et processeur ryzen serie 9">
+        </section>
+      
         <fieldset>
             <legend>Rechercher un modèle</legend>
-            <input type="search">
+            <input type="search" id="search" role="search" placeholder="Rechercher">
         </fieldset>
     </header>
     <main>
         <table>
-            <thead>
+            <thead id="tHeadCpu">
             <tr>
-                <th>Identifiant</th>
-                <th>Marque</th>
-                <th>Famille</th>
-                <th>Modèle</th>
-                <th>Fréquence (Ghz)</th>
+                <th >Identifiant</th>
+                <th >Marque</th>
+                <th >Famille</th>
+                <th >Modèle</th>
+                <th >Fréquence (Ghz)</th>
+                <th id="sortPrice" role="radio" title="trier par prix ascendant/descendant">Prix</th>
                 <th>Nom complet</th>
             </tr>
             </thead>
+            <tbody id="tBodyCpu">
+
+            </tbody>
         </table>
     </main>
-    <footer>
-        <p>Nombre de modèles : <span>0</span></p>
+    <footer> 
+        <p>Nombre de modèles : <span id="totalCpu">0</span></p>
     </footer>
 </body>
 </html>
