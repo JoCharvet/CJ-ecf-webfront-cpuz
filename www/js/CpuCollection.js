@@ -10,6 +10,7 @@ class CpuCollection {
      * @constructor
      * creates an empty array of cpus
      * creates a boolean to know if the array is sorted by price
+     * @author Charvet Johnny
      */
     constructor() {
         this.cpus = [];
